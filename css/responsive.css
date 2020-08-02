@@ -1,0 +1,119 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+   
+
+    .team-hover {
+
+        left: 5px;
+
+    }
+
+    .service-area p {
+
+        font-size: 11px;
+
+    }
+
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+
+    .service-area h3 {
+
+        font-size: 18px;
+        
+    }
+
+    .team-hover {
+
+        left: 65px;
+
+    }
+
+
+
+
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    
+    
+    .navbar-light .navbar-nav .nav-link {
+
+      padding: none;
+
+    }
+    .nav-item:hover .nav-link {
+	background: none;
+	border-bottom: none;;
+}
+
+    .single-service {
+        margin-bottom: 29px;
+    }
+
+    .service-area h3 {
+
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .team-hover {
+	    left: 62px;
+    }
+    
+
+    .single-table {
+
+        margin-bottom: 20px;
+    }
+
+    .single-team h2 {
+        margin-top: 46px;
+
+    }
+
+    .single-team h4 {
+
+        padding-bottom: 22px;
+    }
+
+    .client-says-area {
+        padding-top: 64px;
+
+    }
+
+    .client-says-heading h1 {
+        font-size: 30px;
+
+    }
+
+    .single-carousel p {
+        font-size: 11px;
+    }
+
+    .owl-prev,
+    .owl-next {
+
+        font-size: 40px !important;
+
+    }
+
+
+
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .team-hover {
+	left: 155px;
+}
+}
